@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flyersundays",
+  "info": {
+    "singularName": "flyersunday",
+    "pluralName": "flyersundays",
+    "displayName": "flyersunday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "flyerImg": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "nameEs": {
+      "type": "string"
+    },
+    "spotEn": {
+      "type": "string"
+    },
+    "spotEs": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "descEn": {
+      "type": "string"
+    },
+    "descEs": {
+      "type": "text"
+    }
+  }
+}

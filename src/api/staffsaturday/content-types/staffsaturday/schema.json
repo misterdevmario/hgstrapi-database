@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffsaturdays",
+  "info": {
+    "singularName": "staffsaturday",
+    "pluralName": "staffsaturdays",
+    "displayName": "staffsaturday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "staffImg": {
+      "type": "string"
+    },
+    "positionEn": {
+      "type": "string"
+    },
+    "positionEs": {
+      "type": "string"
+    },
+    "bioEn": {
+      "type": "text"
+    },
+    "bioEs": {
+      "type": "text"
+    }
+  }
+}

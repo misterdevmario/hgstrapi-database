@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitywednesdays",
+  "info": {
+    "singularName": "activitywednesday",
+    "pluralName": "activitywednesdays",
+    "displayName": "activitywednesday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activitieEs": {
+      "type": "string"
+    },
+    "spotEn": {
+      "type": "string"
+    },
+    "spotEs": {
+      "type": "string"
+    },
+    "activitieEn": {
+      "type": "string"
+    },
+    "activitieImage": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "descEn": {
+      "type": "text"
+    },
+    "descEs": {
+      "type": "text"
+    }
+  }
+}

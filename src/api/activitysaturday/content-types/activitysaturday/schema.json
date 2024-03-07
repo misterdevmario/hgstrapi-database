@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitysaturdays",
+  "info": {
+    "singularName": "activitysaturday",
+    "pluralName": "activitysaturdays",
+    "displayName": "activitysaturday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activitieEs": {
+      "type": "string"
+    },
+    "spotEn": {
+      "type": "string"
+    },
+    "spotEs": {
+      "type": "string"
+    },
+    "activitieEn": {
+      "type": "string"
+    },
+    "activitieImage": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "descEn": {
+      "type": "text"
+    },
+    "descEs": {
+      "type": "text"
+    }
+  }
+}

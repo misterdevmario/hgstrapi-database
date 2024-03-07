@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffgalleries",
+  "info": {
+    "singularName": "staffgallery",
+    "pluralName": "staffgalleries",
+    "displayName": "staffgallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "staffgallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

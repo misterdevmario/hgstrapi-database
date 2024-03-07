@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flyertitlethursdays",
+  "info": {
+    "singularName": "flyertitlethursday",
+    "pluralName": "flyertitlethursdays",
+    "displayName": "flyertitlethursday"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameEn": {
+      "type": "string"
+    },
+    "nameEs": {
+      "type": "string"
+    }
+  }
+}

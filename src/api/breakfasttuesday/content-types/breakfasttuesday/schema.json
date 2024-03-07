@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "breakfasttuesdays",
+  "info": {
+    "singularName": "breakfasttuesday",
+    "pluralName": "breakfasttuesdays",
+    "displayName": "breakfasttuesday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "typeEn": {
+      "type": "string"
+    },
+    "serviceEn": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "membersEn": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "breakfastImg": {
+      "type": "string"
+    },
+    "typeEs": {
+      "type": "string"
+    },
+    "serviceEs": {
+      "type": "string"
+    },
+    "membersEs": {
+      "type": "string"
+    },
+    "descEn": {
+      "type": "text"
+    },
+    "descEs": {
+      "type": "text"
+    },
+    "menuImgEn": {
+      "type": "string"
+    },
+    "menuImgEs": {
+      "type": "string"
+    }
+  }
+}

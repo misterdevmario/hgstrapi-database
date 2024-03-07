@@ -1,0 +1,9 @@
+'use strict';
+
+/**
+ * barsunday service
+ */
+
+const { createCoreService } = require('@strapi/strapi').factories;
+
+module.exports = createCoreService('api::barsunday.barsunday');

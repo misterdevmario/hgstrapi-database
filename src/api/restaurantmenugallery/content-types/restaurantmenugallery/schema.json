@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurantmenugalleries",
+  "info": {
+    "singularName": "restaurantmenugallery",
+    "pluralName": "restaurantmenugalleries",
+    "displayName": "menusgallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

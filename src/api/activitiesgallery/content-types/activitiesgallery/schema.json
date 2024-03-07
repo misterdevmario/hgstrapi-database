@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitiesgalleries",
+  "info": {
+    "singularName": "activitiesgallery",
+    "pluralName": "activitiesgalleries",
+    "displayName": "activitiesgallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activity": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

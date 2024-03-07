@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barsaturdays",
+  "info": {
+    "singularName": "barsaturday",
+    "pluralName": "barsaturdays",
+    "displayName": "barsaturday",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "barImg": {
+      "type": "string"
+    },
+    "descEn": {
+      "type": "text"
+    },
+    "descEs": {
+      "type": "text"
+    },
+    "menuImgEs": {
+      "type": "string"
+    },
+    "menuImgEn": {
+      "type": "string"
+    }
+  }
+}

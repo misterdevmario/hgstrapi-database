@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurantsbarsgalleries",
+  "info": {
+    "singularName": "restaurantsbarsgallery",
+    "pluralName": "restaurantsbarsgalleries",
+    "displayName": "restaurantsbarsgallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "restaurantsbarsgallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
