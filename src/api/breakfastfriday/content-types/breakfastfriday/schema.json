@@ -53,6 +53,9 @@
     },
     "menuImgEs": {
       "type": "string"
+    },
+    "menus": {
+      "type": "json"
     }
   }
 }
