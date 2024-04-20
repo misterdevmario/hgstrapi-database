@@ -38,6 +38,9 @@
     },
     "descEs": {
       "type": "string"
+    },
+    "color": {
+      "type": "text"
     }
   }
 }

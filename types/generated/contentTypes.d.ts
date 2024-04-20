@@ -820,6 +820,7 @@ export interface ApiActivityfridayActivityfriday extends Schema.CollectionType {
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -859,6 +860,7 @@ export interface ApiActivitymondayActivitymonday extends Schema.CollectionType {
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -899,6 +901,7 @@ export interface ApiActivitysaturdayActivitysaturday
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -938,6 +941,7 @@ export interface ApiActivitysundayActivitysunday extends Schema.CollectionType {
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.String;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -978,6 +982,7 @@ export interface ApiActivitythursdayActivitythursday
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1018,6 +1023,7 @@ export interface ApiActivitytuesdayActivitytuesday
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1058,6 +1064,7 @@ export interface ApiActivitywednesdayActivitywednesday
     hourEnd: Attribute.String;
     descEn: Attribute.Text;
     descEs: Attribute.Text;
+    color: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
