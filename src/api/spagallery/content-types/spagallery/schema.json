@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spagalleries",
+  "info": {
+    "singularName": "spagallery",
+    "pluralName": "spagalleries",
+    "displayName": "spagallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "spagallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

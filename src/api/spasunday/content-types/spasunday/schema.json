@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spasundays",
+  "info": {
+    "singularName": "spasunday",
+    "pluralName": "spasundays",
+    "displayName": "spasunday"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "typeEn": {
+      "type": "string"
+    },
+    "typeEs": {
+      "type": "string"
+    },
+    "serviceEn": {
+      "type": "string"
+    },
+    "serviceEs": {
+      "type": "string"
+    },
+    "hourStart": {
+      "type": "string"
+    },
+    "hourEnd": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "spaImg": {
+      "type": "string"
+    },
+    "locationEn": {
+      "type": "string"
+    },
+    "locationEs": {
+      "type": "string"
+    },
+    "menus": {
+      "type": "json"
+    }
+  }
+}

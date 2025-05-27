@@ -2577,6 +2577,317 @@ export interface ApiRestaurantsbarsgalleryRestaurantsbarsgallery
   };
 }
 
+export interface ApiSpafridaySpafriday extends Schema.CollectionType {
+  collectionName: 'spafridays';
+  info: {
+    singularName: 'spafriday';
+    pluralName: 'spafridays';
+    displayName: 'spafriday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spafriday.spafriday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spafriday.spafriday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpagallerySpagallery extends Schema.CollectionType {
+  collectionName: 'spagalleries';
+  info: {
+    singularName: 'spagallery';
+    pluralName: 'spagalleries';
+    displayName: 'spagallery';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    spagallery: Attribute.Media;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spagallery.spagallery',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spagallery.spagallery',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpamondaySpamonday extends Schema.CollectionType {
+  collectionName: 'spamondays';
+  info: {
+    singularName: 'spamonday';
+    pluralName: 'spamondays';
+    displayName: 'spamonday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spamonday.spamonday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spamonday.spamonday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpasaturdaySpasaturday extends Schema.CollectionType {
+  collectionName: 'spasaturdays';
+  info: {
+    singularName: 'spasaturday';
+    pluralName: 'spasaturdays';
+    displayName: 'spasaturday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spasaturday.spasaturday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spasaturday.spasaturday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpasundaySpasunday extends Schema.CollectionType {
+  collectionName: 'spasundays';
+  info: {
+    singularName: 'spasunday';
+    pluralName: 'spasundays';
+    displayName: 'spasunday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spasunday.spasunday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spasunday.spasunday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpathursdaySpathursday extends Schema.CollectionType {
+  collectionName: 'spathursdays';
+  info: {
+    singularName: 'spathursday';
+    pluralName: 'spathursdays';
+    displayName: 'spathursday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spathursday.spathursday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spathursday.spathursday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpatuesdaySpatuesday extends Schema.CollectionType {
+  collectionName: 'spatuesdays';
+  info: {
+    singularName: 'spatuesday';
+    pluralName: 'spatuesdays';
+    displayName: 'spatuesday';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spatuesday.spatuesday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spatuesday.spatuesday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiSpawednesdaySpawednesday extends Schema.CollectionType {
+  collectionName: 'spawednesdays';
+  info: {
+    singularName: 'spawednesday';
+    pluralName: 'spawednesdays';
+    displayName: 'spawednesday';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    typeEn: Attribute.String;
+    typeEs: Attribute.String;
+    serviceEn: Attribute.String;
+    serviceEs: Attribute.String;
+    hourStart: Attribute.String;
+    hourEnd: Attribute.String;
+    name: Attribute.String;
+    spaImg: Attribute.String;
+    locationEn: Attribute.String;
+    locationEs: Attribute.String;
+    menus: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::spawednesday.spawednesday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::spawednesday.spawednesday',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiStafffridayStafffriday extends Schema.CollectionType {
   collectionName: 'stafffridays';
   info: {
@@ -2923,6 +3234,14 @@ declare module '@strapi/types' {
       'api::flyerwednesday.flyerwednesday': ApiFlyerwednesdayFlyerwednesday;
       'api::restaurantmenugallery.restaurantmenugallery': ApiRestaurantmenugalleryRestaurantmenugallery;
       'api::restaurantsbarsgallery.restaurantsbarsgallery': ApiRestaurantsbarsgalleryRestaurantsbarsgallery;
+      'api::spafriday.spafriday': ApiSpafridaySpafriday;
+      'api::spagallery.spagallery': ApiSpagallerySpagallery;
+      'api::spamonday.spamonday': ApiSpamondaySpamonday;
+      'api::spasaturday.spasaturday': ApiSpasaturdaySpasaturday;
+      'api::spasunday.spasunday': ApiSpasundaySpasunday;
+      'api::spathursday.spathursday': ApiSpathursdaySpathursday;
+      'api::spatuesday.spatuesday': ApiSpatuesdaySpatuesday;
+      'api::spawednesday.spawednesday': ApiSpawednesdaySpawednesday;
       'api::stafffriday.stafffriday': ApiStafffridayStafffriday;
       'api::staffgallery.staffgallery': ApiStaffgalleryStaffgallery;
       'api::staffmonday.staffmonday': ApiStaffmondayStaffmonday;
